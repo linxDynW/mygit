@@ -13,11 +13,14 @@ But we can do it with a command.
 mountvol C:\ /d  
 
 moountvol [drivepath:] /d  
-```
+```  
+
 In fact,replace \[drivepath:] to drivepath(Such as `C:\`,`D:\`,`E:\`),  
 you can unmount every drive.
 Execute them in `cmd.exe` or save as a .bat file.  
-#####Tips:__These commands need Administrator privilege.__
+
+Tips:__These commands need Administrator privilege.__  
+
 ---
 I just code them into python code and compiled to EXE with pyinstaller,so they
 will not doubt the executed file or edit the file code.
